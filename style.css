@@ -2,3 +2,113 @@
     margin: 0;
     padding: 0;
 }
+
+/* font-family: 'Bebas Neue', cursive; */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    color: #3e3e3e;
+    line-height: 26px;
+}
+/* header area starts here */
+
+ul li a {
+    border-bottom: 2px solid black;
+    transition-duration: 1s;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid black;
+    transition-duration: 0.5s;
+}
+
+.header-area {
+    background-color: #fffbf0;
+}
+
+.header-area h1 span {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+}
+
+.yellow-highlight {
+    color: #fabe4c;
+}
+
+.blue-highlight {
+    color: #363958;
+}
+
+.custom-btn {
+    background-image: linear-gradient(180deg, #a1b942, #86a11a);
+    border: none;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.custom-btn:hover {
+    background-image: linear-gradient(270deg, #86a11a, #a1b942);
+}
+
+/* header area ends here */
+
+/* women area starts here */
+.custom-card {
+    border: 0px;
+    padding: 20px;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+.custom-card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+.custom-card:hover img {
+    transform: scale(1.03);
+}
+
+.custom-card-body {
+    padding: 15px 0px;
+}
+
+.custom-card-footer {
+    padding: 0px;
+    border: 0px;
+    background-color: white;
+}
+
+.card-pricing {
+    font-size: 36px;
+    color: #fabe4c;
+}
+/* women area ends here */
+
+/* about us area starts here */
+.about-area {
+    padding: 10px;
+    border-radius: 20px;
+}
+.about-image img {
+    width: 100px;
+    padding: 10px;
+}
+
+.about-right-side img {
+    width: 100%;
+}
+/* about us area ends here */
