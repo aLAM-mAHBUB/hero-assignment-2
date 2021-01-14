@@ -109,6 +109,7 @@ p {
     padding: 10px;
     border-radius: 20px;
 }
+
 .about-left-side img {
     width: 100px;
 }
@@ -123,9 +124,6 @@ p {
     font-weight: bold;
 }
 
-.about-right-side img {
-    width: 90%;
-}
 /* about us area ends here */
 
 /* contact area starts here */
