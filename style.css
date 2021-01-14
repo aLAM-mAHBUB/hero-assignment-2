@@ -20,14 +20,16 @@ p {
 }
 /* header area starts here */
 
-ul li a {
-    border-bottom: 2px solid black;
-    transition-duration: 1s;
+.header-area ul li {
+    padding: 0px 15px;
+}
+.header-area ul li a {
+    text-decoration: none;
+    color: #3e3e3e;
 }
 
-ul li a:hover {
-    border-bottom: 2px solid black;
-    transition-duration: 0.5s;
+.header-area ul li a:hover {
+    text-decoration: line-through;
 }
 
 .header-area {
@@ -107,12 +109,32 @@ ul li a:hover {
     padding: 10px;
     border-radius: 20px;
 }
-.about-image img {
+.about-left-side img {
     width: 100px;
-    padding: 10px;
+}
+
+.about-left-side {
+    padding: 20px 20px;
+    border-radius: 15px;
+}
+
+.about-left-side h4 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .about-right-side img {
     width: 100%;
 }
 /* about us area ends here */
+
+/* contact area starts here */
+
+.contact-area ul li a {
+    text-decoration: none;
+    color: #3e3e3e;
+}
+.contact-area ul li a:hover {
+    text-decoration: line-through;
+}
+/* contact area ends here */
