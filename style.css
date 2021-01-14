@@ -34,6 +34,10 @@ ul li a:hover {
     background-color: #fffbf0;
 }
 
+.logo {
+    width: 250px;
+}
+
 .header-area h1 span {
     font-family: "Roboto", sans-serif;
     font-size: 60px;
