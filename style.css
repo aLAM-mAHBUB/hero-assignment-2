@@ -180,6 +180,20 @@ p {
     transition: all ease 0.5s;
 }
 
+.social-media {
+    /* width: 80%; */
+}
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+.social-media ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
 .contact-area ul li a:hover:before {
     width: 100%;
 }
