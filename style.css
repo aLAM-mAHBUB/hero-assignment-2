@@ -17,6 +17,9 @@ p {
     line-height: 26px;
 }
 /* header area starts here */
+.header-area {
+    background-color: #fffbf0;
+}
 
 .header-area .navbar ul.navbar-nav li {
     padding: 0px 15px;
@@ -43,14 +46,6 @@ p {
     width: 100%;
 }
 
-.header-area {
-    background-color: #fffbf0;
-}
-
-.logo {
-    width: 250px;
-}
-
 .header-area h1 span {
     font-family: "Josefin Sans", sans-serif;
     font-size: 60px;
@@ -62,6 +57,10 @@ p {
 
 .blue-highlight {
     color: #363958;
+}
+
+.logo {
+    width: 250px;
 }
 
 .custom-icon {
@@ -81,7 +80,7 @@ p {
 
 /* header area ends here */
 
-/* women area starts here */
+/* women and man area starts here */
 .custom-card {
     border: 0px;
     padding: 20px;
@@ -118,7 +117,7 @@ p {
     font-size: 36px;
     color: #fabe4c;
 }
-/* women area ends here */
+/* women and man area ends here */
 
 /* about us area starts here */
 .about-area {
@@ -180,22 +179,18 @@ p {
     transition: all ease 0.5s;
 }
 
-.social-media {
-    /* width: 80%; */
+.contact-area ul li a:hover:before {
+    width: 100%;
 }
+
 .social-media ul {
     list-style: none;
     padding: 0;
-    margin: 0;
     text-align: start;
 }
 .social-media ul li {
     display: inline;
     margin-right: 20px;
-}
-
-.contact-area ul li a:hover:before {
-    width: 100%;
 }
 
 .custom-input {
@@ -205,6 +200,8 @@ p {
 }
 
 /* contact area ends here */
+
+/* media query starts here */
 
 @media (max-width: 991px) {
     .about-left-side {
@@ -231,3 +228,5 @@ p {
         margin-bottom: 20px;
     }
 }
+
+/* media query ends here */
